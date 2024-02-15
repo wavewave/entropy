@@ -1,6 +1,6 @@
 name:           entropy
 
-version:        0.4.1.10
+version:        0.4.1.11
 description:    A mostly platform independent method to obtain cryptographically strong entropy
                 (RDRAND, urandom, CryptAPI, and patches welcome)
                 Users looking for cryptographically strong (number-theoretically
@@ -31,7 +31,7 @@ Flag DoNotGetEntropy
   Manual: True
 
 custom-setup
-  setup-depends: Cabal >= 3.10
+  setup-depends: Cabal >= 3.11
                , base < 5
                , filepath < 1.5
                , directory < 1.4
